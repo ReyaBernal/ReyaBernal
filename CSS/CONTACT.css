@@ -1,0 +1,177 @@
+/* Importación de fuentes de google fonts */ 
+
+.menu1{
+  padding: 5px;
+  margin: auto;
+  width: 100%;
+  background-color: #867365;;
+  font-family: sans-serif; 
+}
+
+.navbar-logo{
+	display:inline-block;
+	vertical-align:middle;
+	width: 80px;
+}
+
+.navbar-logo img{
+	display:block;
+	width: 120px;
+	height: 80px;
+}
+
+.menu1 li a{
+  text-decoration: none; /*quitar subrayado*/
+  color: #fff;
+  padding: 20px; /*separar los elemnetos*/
+}
+
+.menu1 li {
+  list-style-type: none; /*quitar viñetas*/
+  display: inline-block; /*linea horizontal*/
+  text-align: center;
+}
+
+.menu1 li a:hover{ /*cuando pasas el cursor*/
+  background-color: cornsilk;
+  color: rgb(0, 0, 0);
+}
+
+body{
+  height: 100%; 
+  font-family: sans-serif;
+  background-color: #BFA98E; 
+  background: url(../img/fondoE.jpg);
+}
+
+
+.contact_form{  
+  width: 460px; 
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  background-color: #BFA98E; 
+  padding-left: 30px; 
+}
+
+
+input{
+  background-color: #fbfbfb; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #867365; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+  width: 405px; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #56070c; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+  float: center;  
+}
+
+
+button{
+  height: 45px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color: #867365; 
+  border-color: #867365; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 420px;   
+  cursor: pointer;
+}
+
+
+button p{
+  color: #fff; 
+}
+
+
+span{
+  color: #350a06; 
+}
+
+
+.aviso{
+  font-size: 13px;  
+  color: #0e0e0e;  
+}
+
+
+h1{
+  font-size: 39px;  
+  text-align: letf; 
+  padding-bottom: 20px; 
+  color: #56070c;
+}
+
+
+h3{
+  font-size: 16px; 
+  padding-bottom: 30px;
+  color: #0e0e0e;   
+}
+
+
+p{
+  font-size: 14px; 
+  color: #0e0e0e; 
+}
+
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+
+
+.formulario textarea:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+
+
+/* creado por javiniguez.com, Julio 2019 */
+
+.cont{
+  background: url(../img/base1.png);
+  width: 100%;
+  height: 250px;
+  color: #ffffff;
+}

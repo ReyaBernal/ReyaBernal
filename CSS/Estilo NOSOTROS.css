@@ -1,0 +1,218 @@
+
+.menu1{
+    padding: 5px;
+    margin: auto;
+    width: 100%;
+    background-color: #867365;;
+    font-family: sans-serif; 
+}
+
+.navbar-logo{
+	display:inline-block;
+	vertical-align:middle;
+	width: 80px;
+}
+
+.navbar-logo img{
+	display:block;
+	width: 150%;
+	height: 150%;
+}
+
+.menu1 li a{
+    text-decoration: none; /*quitar subrayado*/
+    color: #fff;
+    padding: 20px; /*separar los elemnetos*/
+}
+
+.menu1 li {
+    list-style-type: none; /*quitar viñetas*/
+    display: inline-block; /*linea horizontal*/
+    text-align: center;
+}
+
+.menu1 li a:hover{ /*cuando pasas el cursor*/
+    background-color: cornsilk;
+    color: rgb(0, 0, 0);
+    
+}
+
+.body {
+    text-align: center;
+    font-family:sans-serif;
+    text-transform: uppercase;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    
+}
+
+.list-saucers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 40px;
+    border: 2px solid #ffffff;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.content {
+        color: #ffffff;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+        font: 60px;
+        font-size: 34px;
+        background-color: #8b7b6f;
+        border-radius: 10px;
+
+}
+
+
+.abo {
+        background-color: #BFA98E;
+        background-size: cover;
+        color: #fff;
+        width: "10";
+        height: "-900";
+        text-transform: uppercase;
+}
+
+.container{
+    background: url(../img/fondoE.jpg) no-repeat center top;
+    width: 1339px;
+    height: 2050px;
+    min-width: 100%;
+    text-transform: uppercase;
+}
+
+
+
+
+.cont{
+    background: url(../img/base1.png);
+    width: 100%;
+    height: 250px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+p{
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    padding: 0 150px;
+    text-transform: uppercase;
+}
+
+.cont{
+    background: url(../img/base1.png);
+    width: 100%;
+    height: 250px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+
+
+.container{
+    background: url(../img/madera.jpg) no-repeat center top;
+    width: 1339px;
+    height: 2050px;
+    min-width: 100%;
+    text-transform: uppercase;
+}
+
+.saucers {
+    background: url(../img/madera.jpg) no-repeat center top;
+    padding-bottom: 0;
+    width: "10";
+    height: "-900";
+    background-size: cover;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+
+
+
+
+
+
+
+
+.img1, .img2, .img3{
+    padding: 70px;
+    background-color:#867365 ;
+    border-radius: 30px;
+    background: url(../img/fondoE.jpg);
+    text-transform: uppercase;
+
+
+}
+
+
+.cont{
+    background: url(../img/base1.png);
+    width: 100%;
+    height: 250px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+
+.conter{
+    background: url(../img/fondoE.jpg);
+}
+
+
+.container{
+    background-image: url(../img/madera.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 30px;
+    width: 800px;
+	height: 800px;
+    text-transform: uppercase;
+}
+
+.container2{
+    background-image: url(../img/madera.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 30px;
+    width: 1333px;
+	height: 200px;
+    text-transform: uppercase;
+}
+
+.container3{
+    background-image: url(../img/madera.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 30px;
+    width: 1333px;
+	height: 200px;
+    text-transform: uppercase;
+}
